@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h4 class="title">Student Grade Calculator</h4>
+            <form>
+                <div class="omrs-input-group">
+                    <label class="omrs-input-underlined">
+                      <input type="text" required id="bangla">
+                      <span class="omrs-input-label">Bangla</span>
+                    </label>
+                </div>
+                <div class="omrs-input-group">
+                    <label class="omrs-input-underlined">
+                      <input  type="text" required id="english">
+                      <span class="omrs-input-label">English</span>
+                    </label>
+                </div>
+                <div class="omrs-input-group">
+                    <label class="omrs-input-underlined">
+                      <input type="text" required id="math">
+                      <span class="omrs-input-label">Mathematics</span>
+                    </label>
+                </div>
+
+                <div class="omrs-input-group">
+                    <label class="omrs-input-underlined">
+                      <input type="text" required id="general">
+                      <span class="omrs-input-label">General Science</span>
+                    </label>
+                </div>
+
+                <div class="omrs-input-group">
+                    <label class="omrs-input-underlined">
+                      <input type="text" required id="social">
+                      <span class="omrs-input-label">Social Science</span>
+                    </label>
+                </div>
+
+                <div class="omrs-input-group">
+                    <label class="omrs-input-underlined">
+                      <input type="text" required id="ict">
+                      <span class="omrs-input-label">ICT</span>
+                    </label>
+                </div>
+
+                <button type="button" class="btn" onClick="calc()">submit</button>
+            </form>
+        </div>
+
+
+        <div class="show-data">
+            <p id="showData"></p>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

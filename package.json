@@ -1,0 +1,16 @@
+{
+    "name": "grade-calculator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "deploy": "gh-pages -d src"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://DeveloperOmarFaruk.github.io/grade-calculator",
+    "dependencies": {
+        "gh-pages": "^3.2.3"
+    }
+}
